@@ -1,4 +1,12 @@
-<?php include 'include/header.php'; ?>
+<?php 
+    session_start();
+    if($_SESSION['email']==true){
+      $page = 'home';
+      include 'include/header.php';
+    }else{
+      header('location:admin_login.php');      
+    }
+ ?>
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
    <h3 align="center">Welcome to <span><?php echo $_SESSION['email']; ?>  </span></h3>
    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
