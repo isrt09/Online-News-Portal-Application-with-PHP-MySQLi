@@ -47,7 +47,7 @@
 			      <td><?php echo $row['category_description']; ?></td>			      
 			      <td>
 			      	  <a href='category_delete.php?id=<?php echo $row['category_id']; ?>' class="btn btn-danger">Delete</a>
-			      	  <a href='edit.php?id=<?php echo $row['category_id']; ?>' class="btn btn-warning">Edit</a>
+			      	  <a href='category_edit.php?id=<?php echo $row['category_id']; ?>' class="btn btn-warning">Edit</a>
 			      	  <a href='view.php?id=<?php echo $row['category_id']; ?>' class="btn btn-info">View</a>
 			      </td>
 			    </tr>	
