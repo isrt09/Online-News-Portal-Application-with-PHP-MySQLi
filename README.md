@@ -1,1 +1,1 @@
-# Online-News-Portal-Application-with-PHP-MySQLi
+# Online News Portal System
