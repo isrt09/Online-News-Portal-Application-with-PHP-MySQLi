@@ -1,1 +1,17 @@
 # Online News Portal System
+ - Login Authentication
+ - User Settings
+ - Category
+ - Post
+ - Image Gallery
+ - File Management
+ - Articles
+ - Recents Post
+ - Latest Post
+ - Search
+ - Pagination
+ - Tags
+ - Menu
+ - Published & Unpublished
+ - Comments
+ - Contact
