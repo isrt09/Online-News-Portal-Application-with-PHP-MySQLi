@@ -15,3 +15,4 @@
  - Published & Unpublished
  - Comments
  - Contact
+ - Send Email
